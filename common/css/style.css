@@ -1,0 +1,276 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background:url(../img/background.png) 0 0 repeat;
+}
+
+#wrapper{
+	width:1100px;
+	height:1500px;
+	margin:auto;
+}
+
+
+/** header **/
+#header{
+	width:1100px;
+	height:160px;
+}
+
+#logo{
+	width:100px;
+	float:left;
+	padding:31px 0 0 71px;
+}
+
+#navi{
+	float:left;
+	width:849px;
+	padding:75px 0 0 0;
+}
+
+#navi a{
+	padding:0 0 0 20px;
+}
+/** header **/
+
+
+/** container **/
+#container{
+	width:1100px;
+	height:823px;
+	position:relative;
+}
+
+#news{
+	width:287px;
+	height:426px;
+	float:left;
+	padding:76px 0 0 83px;
+	position:relative;
+}
+
+#newslogo{
+	width:114px;
+	height:62px;
+	position:absolute;
+	top:100px;
+	left:140px;
+}
+
+#newsbox{
+	width:228px;
+	height:220px;
+	overflow-y:auto;
+	position:absolute;
+	top:177px;
+	left:112px;
+}
+
+.date{
+	width:208px;
+	font-size:14px;
+}
+
+.date dt{
+	color:#FFF;
+	padding:5px 0 0 10px;
+}
+
+.date dd a{
+	display:block;
+	color:#6CF;
+	text-decoration:none;
+	padding:7px 20px;
+}
+/** container **/
+
+
+/** top page **/
+#welcome{
+	width:700px;
+	height:691px;
+	padding:76px 0 0 3px;
+	float:left;
+}
+/** top page **/
+
+
+/** footer **/
+#footer_back{
+	width:1100px;
+	position:relative;
+}
+
+#twitter{
+	width:244px;
+	position:absolute;
+	left:115px;
+	top:210px;
+}
+
+#facebook{
+	width:288px;
+	position:absolute;
+	left:115px;
+	top:331px;
+}
+
+#rss{
+	width:328px;
+	position:absolute;
+	left:414px;
+	top:210px;
+}
+
+#youtube{
+	width:280px;
+	position:absolute;
+	left:414px;
+	top:331px;
+}
+
+#tweet{
+	width:294px;
+	height:300px;
+	position:absolute;
+	left:777px;
+	top:148px;
+}
+
+#under_navi{
+	width:788px;
+	position:absolute;
+	left:100px;
+	top:451px;
+}
+
+#under_navi a{
+	padding:0 0 0 20px;
+}
+
+#footer_back p{
+	color:#FFF;
+	font-size:9px;
+	font-family:"MS ゴシック",sans-selif;
+	position:absolute;
+	left:470px;
+	top:490px;
+}
+/** footer **/
+
+
+/** about,contact css **/
+.contentwrapper{
+	width:710px;
+	float:left;
+}
+
+.contentwrapper h1{
+	width:100px;
+	height:17px;
+	margin:0 auto;
+	padding:20px 0;
+}
+
+.contentwrapper h2{
+	width:76px;
+	font-size:25px;
+	color:#333;
+	margin:5px auto;
+	padding:40px 0 0 0;
+}
+/** about,contact css **/
+
+
+/** about css **/
+#about p{
+	display:block;
+	font:bold "ＭＳ ゴシック", "MS Gothic", "Osaka－等幅", Osaka-mono, monospace;
+	font-size:18px;
+	color:#333;
+	padding:10px auto;
+}
+
+#contabout{
+	width:650px;
+	height:800px;
+	overflow-y:scroll;
+	margin:0 auto;
+}
+
+.listabout dt{
+	padding:10px 0 0 10px;
+	color:#333;
+}
+
+.listabout dd{
+	display:block;
+	padding:5px 0 0 50px;
+	color:#333;
+}
+
+/** about css **/
+
+
+/** gallery css **/
+#gallery{
+	width:710px;
+	height:800px;
+	overflow-y:scroll;
+}
+
+.photo{
+	width:690px;
+}
+
+.photo a{
+	display:block;
+	width:230px;
+	height:230px;
+	background:#FFF;
+	float:left;
+}
+/** gallery css **/ 
+
+
+/** contact css **/
+#contform{
+	width:500px;
+	margin:0 auto;
+}
+
+#contform p{
+	font:bold "ＭＳ ゴシック", "MS Gothic", "Osaka－等幅", Osaka-mono, monospace;
+	font-size:18px;
+	color:#666;
+	padding:0 0 7px 0;
+}
+
+.textbox input{
+	background:#999;
+	border:none;
+	color:#FFF;
+	padding:7px 10px;
+	font-size:100%;
+}
+
+.textbox textarea{
+	width:500px;
+	height:100px;
+	background:#999;
+	border:none;
+	color:#FFF;
+	padding:7px 10px;
+	font-size:100%;
+}
+
+#form form title{
+	color:#FFF;
+}
+
+.red{
+	color:#F00;	
+}
+/** contact css **/

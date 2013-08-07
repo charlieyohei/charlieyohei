@@ -1,0 +1,215 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Yohei Tanikawa Portfolio Site - Gallery</title>
+
+<link href="common/css/reset.css" type="text/css" rel="stylesheet" />
+<link href="common/css/style.css" type="text/css" rel="stylesheet" />
+<link rel="stylesheet" href="common/css/swipebox.css">
+<script type="text/javascript" src="common/js/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="common/js/jquery.swipebox.js"></script>
+
+<!-- Rollover -->
+<script type="text/javascript">
+	$( function(){
+		
+			var images = $("img");
+for(var i=0; i < images.size(); i++) {
+    if(images.eq(i).attr("src").match("_off.")) {
+        $("img").eq(i).hover(function() {
+            $(this).attr('src', $(this).attr("src").replace("_off.", "_on."));
+        }, function() {
+            $(this).attr('src', $(this).attr("src").replace("_on.", "_off."));
+        });
+    }
+}
+
+		
+	} );
+
+</script><!-- /Rollover -->
+
+<script type="text/javascript">
+	jQuery( function(){
+	
+		$(".photo a").swipebox();
+	});
+</script>
+
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-42275173-1', 'charlieyohei.com');
+  ga('send', 'pageview');
+
+</script><!-- //Google Analytics -->
+
+</head>
+
+<body> 
+
+    <div id="wrapper">
+    
+    	<div id="header">
+    	
+        <div id="logo">
+        	<a href="index.html"><img src="common/img/logo.png" width="100" height="118" alt="谷川洋平のポートフォリオサイト" /></a>
+    	</div><!-- /#logo --> 
+    	
+        <div id="navi">
+    		<a href="index.html">
+            	<img src="common/img/menu_top_off.png" width="180" height="70" alt="トップへ戻る" />
+            </a><!--
+        	--><a href="about.html">
+            	<img src="common/img/menu_about_off.png" width="180" height="70" alt="谷川洋平について" />
+            </a><!--
+        	--><a href="gallery.html">
+            	<img src="common/img/menu_gallery_off.png" width="180" height="70" alt="作品集" />
+            </a><!--
+        	--><a href="contact.html">
+            	<img src="common/img/menu_contact_off.png" width="180" height="70" alt="連絡先" />
+            </a>
+     	</div><!-- /#navi -->
+   	
+    </div><!-- /#header -->
+    
+    <div id="container">
+        <div id="news">
+        	<div id="newslogo">
+            	<img src="common/img/flame_news.png" width="114" height="62" alt="ニュース" />
+            </div><!-- /#newslogo -->
+    			<div id="newsbox">
+            		<dl class="date">
+                    	<dt>2013年2月25日</dt>
+                        	<dd>
+                            	<a href="gallery.html">14作品追加</a>
+                            </dd>
+            			<dt>2013年2月25日</dt>
+                			<dd>
+                            	<a href="index.html">ポートフォリオサイト完成</a>
+                            </dd>
+                    	<dt>2012年11月19日</dt>
+                    		<dd>
+                            	<a href="index.html">ポートフォリオサイト制作開始</a>
+                            </dd>
+            		</dl><!-- /.date -->
+            </div><!-- /#newsbox -->
+            	<img src="common/img/news_back.png" width="287" height="426" alt="更新情報" />
+    	</div><!-- /#news -->
+        
+        <div id="gallery" class="contentwrapper">
+        
+        	<h1><img src="common/img/menu_gallery.png" width="96" height="17" alt="gallery" /></h1>
+            
+                    <div class="photo">
+                	
+                		<div id="graphic">
+                        	<a href="common/img/epa_11th.png" title="<strong>第12回エンターテイメントパッケージアワード グラフィックデザイン部門 出品／CDジャケットデザイン</strong><br />テーマ「Feel the Earth」<br />背景には夕日をモチーフにしています。東日本大震災への「復興」を願い、「陽はまた昇る」というメッセージを込めています。"><img src="common/img/epa_11th_thumb_off.png" /></a>
+                    		<a href="common/img/gimic_omote.png" title="<strong>ギミックのあるフライヤー／フライヤーデザイン</strong><br />表面"><img src="common/img/gimic_omote_thumb_off.png" /></a>
+                    		<a href="common/img/gimic_ura.png" title="<strong>ギミックのあるフライヤー／フライヤーデザイン</strong><br />裏面"><img src="common/img/gimic_ura_thumb_off.png" /></a>
+                    		<a href="common/img/hmf_poster_2012.png" title="<strong>HAL-MODE FESTIVAL 2012／ポスターデザイン</strong><br />テーマ「アジア新世紀〜アジアの未来が、世界の未来〜」"><img src="common/img/hmf_poster_2012_thumb_off.png" /></a>
+                    		<a href="common/img/hygeiabanner.png" title="<strong>ハイジア巨大クリスマスバナーデザインコンテスト2012 出品／バナーデザイン</strong><br />テーマ「私たちの夢」"><img src="common/img/hygeiabanner_thumb_off.png" /></a>
+                    		<a href="common/img/kinpaku_tshirts.png" title="<strong>産学連携プロジェクト 東京モード学園×村田金箔グループ／Tシャツデザイン</strong><br />★入選・商品化<br />「必ず金箔を使う」という条件の基、流行の「スカル」を取り入れたデザインをしました。"><img src="common/img/kinpaku_tshirts_thumb_off.png" /></a>
+                    		<a href="common/img/marvie_01.png" title="<strong>マヴィ株式会社 第5回ワインラベルデザインコンテスト／ラベルデザイン</strong><br />テーマ「オーガニック～自然との共存、調和、つながり～」<br />ぶどうの新鮮さをイメージし、自然を感じるデザインにしました。"><img src="common/img/marvie_01_thumb_off.png" /></a>
+                    		<a href="common/img/marvie_02.png" title="<strong>マヴィ株式会社 第5回ワインラベルデザインコンテスト／ラベルデザイン</strong><br />テーマ「オーガニック～自然との共存、調和、つながり～」<br />「オーガニック」のイメージを全面に取り入れ、味わい深く感じてもらうデザインにしました。"><img src="common/img/marvie_02_thumb_off.png" /></a>
+                    		<a href="common/img/saildesign.png" title="<strong>第2回お台場セイルデザインコンテスト／セイルデザイン</strong><br />テーマ「風・海・太陽＝帆（セイル）<br />太陽、海、そして風が波を作り出している様子を表現しました。お台場の明るいイメージを参考にデザインをしています。」"><img src="common/img/saildesign_thumb_off.png" /></a>
+                    		<a href="common/img/sendai_amefootlogo01.png" title="<strong>産学連携プロジェクト 東京モード学園×専修大学アメリカンフットボール部／ロゴデザイン</strong><br />オオワシのモチーフに「強靭な力強さ」と「俊足のスピード」を表現しています。"><img src="common/img/sendai_amefootlogo01_thumb_off.png" /></a>
+                    		<a href="common/img/sendai_amefootlogo02.png" title="<strong>産学連携プロジェクト 東京モード学園×専修大学アメリカンフットボール部／ロゴデザイン</strong><br />オオワシのモチーフに「強靭な力強さ」と「俊足のスピード」を表現しています。"><img src="common/img/sendai_amefootlogo02_thumb_off.png" /></a>
+                    		<a href="common/img/sendai_amefootlogo03.png" title="<strong>産学連携プロジェクト 東京モード学園×専修大学アメリカンフットボール部／ロゴデザイン</strong><br />オオワシのモチーフに「強靭な力強さ」と「俊足のスピード」を表現しています。"><img src="common/img/sendai_amefootlogo03_thumb_off.png" /></a>
+                    	</div><!-- /#graphic -->
+                    
+                    <div id="web">
+                    </div><!-- /#web -->
+                    
+                    <div id="editorial">
+                    		<a href="common/img/edi_01_0p.png" title="<strong>雑誌の特集ページデザイン／表紙<br />既存の雑誌「BRUTUS」を基に架空の雑誌を制作しました。</strong><br />特集テーマは「We are BE@RBRICK」です。"><img src="common/img/edi_01_0p_thumb_off.png" alt="雑誌の表紙デザイン" /></a>
+                    		<a href="common/img/edi_01_1-2p.png" title="<strong>雑誌の特集ページデザイン／特集ページ p1~2</strong><br />中表紙。写真を大きく配置して、動きのあるページにしています。"><img src="common/img/edi_01_1-2p_thumb_off.png" /></a>
+                    		<a href="common/img/edi_01_3-4p.png" title="<strong>雑誌の特集ページデザイン／特集ページ p3~4</strong><br />BE@RBRICKの紹介ページ。バランスのとれた文字組を意識してデザインしました。"><img src="common/img/edi_01_3-4p_thumb_off.png" /></a>
+                    		<a href="common/img/edi_01_5-6p.png" title="<strong>雑誌の特集ページデザイン／特集ページ p5~6</strong><br />BE@RBRICKの商品紹介ページ。写真をキレイに切り抜くのに苦労をしました。"><img src="common/img/edi_01_5-6p_thumb_off.png" /></a>
+                    		<a href="common/img/edi_01_7-8p.png" title="<strong>雑誌の特集ページデザイン／特集ページ p7~8</strong><br />BE@RBRICKコラボ商品などの紹介ページ。見やすいレイアウトになるよう心掛けました。"><img src="common/img/edi_01_7-8p_thumb_off.png" /></a>
+                    		<a href="common/img/edi_column.png" title="<strong>音楽アーティストコラム記事デザイン／記事ページ</strong><br />椎名林檎の「三文ゴシップ」というアルバムのコラム記事を制作しました。<br />アルバムやアーティストのイメージが伝わりやすいように配慮しました。"><img src="common/img/edi_column_thumb_off.png" /></a>
+                    </div><!-- /#editorial -->
+                    
+            	</div><!-- /.photo -->
+        	
+        </div><!-- /#gallery -->
+    
+    </div><!-- /.contentwrapper -->
+    
+    <div id="footer">
+    	
+      <div id="footer_back">
+        	<img src="common/img/footer_back.png" width="1100" height="517" alt="footer" />
+             
+            	<div id="twitter">
+                	<a href="https://twitter.com/tanisan0720">
+                    	<img src="common/img/icon_twitter_off.png" width="244" height="64" alt="Twitter" />
+                    </a>
+                </div><!-- /#twitter -->
+                
+                <div id="facebook">
+                	<a href="http://www.facebook.com/tanikawayohei">
+                    	<img src="common/img/icon_facebook_off.png" width="288" height="64" alt="Facebook" />
+                    </a>
+                </div><!-- /#facebook -->
+                
+                <div id="rss">
+                	<a href="#">
+                    	<img src="common/img/icon_rss_off.png" width="328" height="64" alt="RSS" />
+                    </a>
+                </div><!-- /#rss -->
+                
+        		<div id="youtube">
+                	<a href="http://www.youtube.com/user/dancemanfunk">
+                    	<img src="common/img/icon_youtube_off.png" width="280" height="64" alt="YouTube" />
+                    </a>
+              	</div><!-- /#youtube -->
+                
+              	<div id="tweet">
+               	  	<a class="twitter-timeline" width="290" height="300" href="https://twitter.com/tanisan0720" data-widget-id="306289382023905281">@tanisan0720 からのツイート</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+              	</div><!-- tweet -->
+                
+                <div id="under_navi">
+                	<a href="index.html">
+                    	<img src="common/img/under_top.png" width="32" height="14" alt="トップへ戻る" />
+                    </a><!--
+                    --><a href="about.html">
+                    	<img src="common/img/under_about.png" width="57" height="14" alt="谷川洋平について" />
+                    </a><!--
+                    --><a href="gallery.html">
+                    	<img src="common/img/under_gallery.png" width="76" height="14" alt="作品集" />
+                    </a><!--
+                    --><a href="contact.html">
+                    	<img src="common/img/under_contact.png" width="75" height="14" alt="連絡先" />
+                    </a><!--
+                    --><a href="https://twitter.com/tanisan0720">
+                    	<img src="common/img/under_twitter.png" width="76" height="13" alt="Twitter" />
+                    </a><!--
+                    --><a href="http://www.facebook.com/tanikawayohei">
+                    	<img src="common/img/under_facebook.png" width="89" height="14" alt="Facebook" />
+                    </a><!--
+                    --><a href="http://www.youtube.com/user/dancemanfunk">
+                    	<img src="common/img/under_youtube.png" width="77" height="14" alt="YouTube" />
+                    </a>
+                </div><!-- /#under_navi -->
+                
+                <p>Copyright © 2013 Tanikawa Yohei. All rights reserved.</p>
+                
+        </div><!-- /#footer_back -->
+        
+        
+    
+  </div><!-- /#footer -->
+    
+    </div><!-- /#wrapper -->
+
+
+
+</body>
+</html>

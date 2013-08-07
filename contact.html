@@ -1,0 +1,215 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Yohei Tanikawa Portfolio Site- Contact</title>
+
+<link href="common/css/reset.css" type="text/css" rel="stylesheet">
+<link href="common/css/style.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="common/js/jquery.js"></script>
+
+<script type="text/javascript">
+	$( function(){
+		
+			var images = $("img");
+for(var i=0; i < images.size(); i++) {
+    if(images.eq(i).attr("src").match("_off.")) {
+        $("img").eq(i).hover(function() {
+            $(this).attr('src', $(this).attr("src").replace("_off.", "_on."));
+        }, function() {
+            $(this).attr('src', $(this).attr("src").replace("_on.", "_off."));
+        });
+    }
+}
+
+		
+	} );
+
+</script>
+
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-42275173-1', 'charlieyohei.com');
+  ga('send', 'pageview');
+
+</script><!-- //Google Analytics -->
+
+</head>
+
+<body>
+<div id="wrapper">
+    
+    	<div id="header">
+    	
+        <div id="logo">
+        	<a href="index.html"><img src="common/img/logo.png" width="100" height="118" alt="谷川洋平のポートフォリオサイト" /></a>
+    	</div><!-- /#logo --> 
+    	
+        <div id="navi">
+    		<a href="index.html">
+            	<img src="common/img/menu_top_off.png" width="180" height="70" alt="トップへ戻る" />
+            </a><!--
+        	--><a href="about.html">
+            	<img src="common/img/menu_about_off.png" width="180" height="70" alt="谷川洋平について" />
+            </a><!--
+        	--><a href="gallery.html">
+            	<img src="common/img/menu_gallery_off.png" width="180" height="70" alt="作品集" />
+            </a><!--
+        	--><a href="contact.html">
+            	<img src="common/img/menu_contact_off.png" width="180" height="70" alt="連絡先" />
+            </a>
+     	</div><!-- /#navi -->
+   	
+    </div><!-- /#header -->
+    
+    <div id="container">
+        <div id="news">
+        	<div id="newslogo">
+            	<img src="common/img/flame_news.png" width="114" height="62" alt="ニュース" />
+            </div><!-- /#newslogo -->
+    			<div id="newsbox">
+            		<dl class="date">
+                    	<dt>2013年2月25日</dt>
+                        	<dd>
+                            	<a href="gallery.html">14作品追加</a>
+                            </dd>
+            			<dt>2013年2月25日</dt>
+                			<dd>
+                            	<a href="index.html">ポートフォリオサイト完成</a>
+                            </dd>
+                    	<dt>2012年11月19日</dt>
+                    		<dd>
+                            	<a href="index.html">ポートフォリオサイト制作開始</a>
+                            </dd>
+            		</dl><!-- /.date -->
+            </div><!-- /#newsbox -->
+            	<img src="common/img/news_back.png" width="287" height="426" alt="更新情報" />
+    	</div><!-- /#news -->
+        
+        <div id="contact" class="contentwrapper">
+        
+        	<h1><img src="common/img/menu_contact.png" width="100" height="17" alt="contact" /></h1>
+            
+            <div id="contform">
+            
+            	<p><strong>ポートフォリオサイトをご覧頂き、ありがとうございます。<br />
+                何かありましたら、下記のフォームをご利用ください。</strong></p>
+            	<p><strong>※マークのある箇所（<span class="red">*</span>）は必須項目です。</strong></p><br />
+            
+        		<form>
+            		<p><strong>お名前</strong><span class="red">*</span><br />
+                		<span class="textbox">
+                        	<input type="text" name="your-name" size="40" title="お名前">
+                        </span>
+                    </p><br />
+                        
+                    <p><strong>メールアドレス<span class="red">*</span></strong><br />
+                    	<span class="textbox">
+                        	<input type="text" name="your-mail" size="40">
+                        </span>
+                    </p><br />
+                        
+                    <p><strong>Webサイト</strong><br />
+                    	<span class="textbox">
+                        	<input type="text" name="your-website" size="40" value="http://">
+                        </span>
+                    </p><br />
+                    
+                    <p><strong>Twitter</strong><br />
+                    	<span class="textbox">
+                        	<input type="text" name="your-twitter" size="10" value="@">
+                        </span>
+                    </p><br />
+                        
+                    <p><strong>メッセージ</strong><span class="red">*</span><br />
+                    	<span class="textbox">
+                        	<textarea name="your-message" size="40"></textarea>
+                        </span>
+                    </p><br />
+                        
+                    <span class="textbox">
+                    	<input type="submit" value="確認画面へ" />
+                    	<input type="submit" value="送信する" />
+                    	<input type="reset"  value="リセットする"/>
+                    </span>
+            	</form>
+            </div><!-- /#form -->
+        </div><!-- /#contact --><!-- /.contentwrapper -->
+    
+    </div><!-- /#container -->
+    
+    <div id="footer">
+    	
+      <div id="footer_back">
+        	<img src="common/img/footer_back.png" width="1100" height="517" alt="footer" />
+             
+            	<div id="twitter">
+                	<a href="https://twitter.com/tanisan0720">
+                    	<img src="common/img/icon_twitter_off.png" width="244" height="64" alt="Twitter" />
+                    </a>
+                </div><!-- /#twitter -->
+                
+                <div id="facebook">
+                	<a href="http://www.facebook.com/tanikawayohei">
+                    	<img src="common/img/icon_facebook_off.png" width="288" height="64" alt="Facebook" />
+                    </a>
+                </div><!-- /#facebook -->
+                
+                <div id="rss">
+                	<a href="#">
+                    	<img src="common/img/icon_rss_off.png" width="328" height="64" alt="RSS" />
+                    </a>
+                </div><!-- /#rss -->
+                
+        		<div id="youtube">
+                	<a href="http://www.youtube.com/user/dancemanfunk">
+                    	<img src="common/img/icon_youtube_off.png" width="280" height="64" alt="YouTube" />
+                    </a>
+              	</div><!-- /#youtube -->
+                
+              	<div id="tweet">
+               	  	<a class="twitter-timeline" width="290" height="300" href="https://twitter.com/tanisan0720" data-widget-id="306289382023905281">@tanisan0720 からのツイート</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+              	</div><!-- tweet -->
+                
+                <div id="under_navi">
+                	<a href="index.html">
+                    	<img src="common/img/under_top.png" width="32" height="14" alt="トップへ戻る" />
+                    </a><!--
+                    --><a href="about.html">
+                    	<img src="common/img/under_about.png" width="57" height="14" alt="谷川洋平について" />
+                    </a><!--
+                    --><a href="gallery.html">
+                    	<img src="common/img/under_gallery.png" width="76" height="14" alt="作品集" />
+                    </a><!--
+                    --><a href="contact.html">
+                    	<img src="common/img/under_contact.png" width="75" height="14" alt="連絡先" />
+                    </a><!--
+                    --><a href="https://twitter.com/tanisan0720">
+                    	<img src="common/img/under_twitter.png" width="76" height="13" alt="Twitter" />
+                    </a><!--
+                    --><a href="http://www.facebook.com/tanikawayohei">
+                    	<img src="common/img/under_facebook.png" width="89" height="14" alt="Facebook" />
+                    </a><!--
+                    --><a href="http://www.youtube.com/user/dancemanfunk">
+                    	<img src="common/img/under_youtube.png" width="77" height="14" alt="YouTube" />
+                    </a>
+                </div><!-- /#under_navi -->
+                
+                <p>Copyright © 2013 Tanikawa Yohei. All rights reserved.</p>
+                
+        </div><!-- /#footer_back -->
+        
+        
+    
+  </div><!-- /#footer -->
+    
+    </div><!-- /#wrapper -->
+
+</body>
+</html>

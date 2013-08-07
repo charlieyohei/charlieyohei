@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html,body {
+	background-color:#fff;
+	margin: 0 auto;
+	text-align:center;
+	height:100%;
+	font-size:9pt;
+	color:#111;
+}
+
+/* RESET
+----------------------------------------------*/
+html,body,div,
+dl,dt,dd,ul,ol,li,
+h1,h2,h3,h4,h5,h6,
+form,p,span,em,a,strong,address,
+table,tbody,caption,tr,th,td,
+input,textarea,select,
+object,embed,iframe {
+	margin:0px; padding:0px;
+}
+img,fieldset,iframe {border:0;}
+q:before,q:after {content:'';}
+table {border-collapse:collapse;border-spacing:0;}
+h1,h2,h3,h4,h5,h6,em,b{font-weight:normal;}
+
+
+
+body,
+dl,dt,dd,ul,ol,li,
+h1,h2,h3,h4,h5,h6,
+form,p,span,em,strong,address,
+table,tbody,caption,tr,th,td,
+input,textarea,select,
+object,embed,button{
+	line-height:1.6; 
+	font-family:'ヒラギノ角ゴ Pro','Hiragino Kaku Gothic Pro','Meiryo','メイリオ',"Osaka","MS PGothic",'ＭＳ Ｐゴシック',Arial,sans-serif;
+}
+
+
+/* CLEAR
+----------------------------------------------*/
+.clear {clear:both;height:0;width:0;font-size:0px;line-height:0;}
+.clearFix:after {content: ""; display: block; clear: both; height: 0;}
+.clearFix {display: inline-block;}
+.clearFix {display: block;}
+.clearNone{clear:none !important;}

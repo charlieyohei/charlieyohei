@@ -1,0 +1,294 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background: #f7edec;
+	height: 100%;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 13px;
+}
+
+a:link, a;visited{
+	color: #F66;
+	text-decoration: underline;
+}
+
+ul li a:hover img, div a:hover img{
+	opacity: 0.5;
+	-webkit-transition: opacity 0.1s linear;
+}
+
+/*-----headerここから-----*/
+header{
+	width: 100%;
+	height: 40px;
+	background-color: #300;
+	padding: 20px 0;
+	margin-bottom: 10px;
+}
+
+header h1{
+	float: left;
+	padding-left: 15px;
+}
+
+header div{
+	width: 400px;
+	float: right;
+	padding-top: 15px;
+}
+
+header h2{
+	float: left;
+	margin-right: 15px;
+}
+
+header ul{
+	width: 160px;
+	float: left;
+}
+
+header ul li{
+	width: 25px;
+	height: 25px;
+	float: left;
+	margin-right: 15px;
+	vertical-align: bottom;
+}
+/*-----headerここまで-----*/
+/*-----#wrapperここから-----*/
+#wrapper{
+	width: 98%;
+	padding: 0 1%;
+	margin: 0 auto;
+}
+	/*-----#gn1ここから-----*/
+	#gn1{
+		width:937px;
+		height: 35px;
+		margin-bottom: 10px;
+	}
+	
+	#gn1 nav ul li{
+		float: left;
+		width: 132px;
+		height: 35px;
+		padding-right: 1px;
+	}
+	/*-----#gn1ここまで-----*/
+	/*-----#gn2ここから-----*/
+	#gn2{
+		width: 930px;
+		height: 35px;
+		margin-bottom: 1px;
+	}
+	
+	#gn2 nav ul li{
+		float: left;
+		width: 132px;
+		height: 35px;
+		border-right: solid 1px #CCC;
+	}
+	/*-----#gn2ここまで-----*/
+	/*-----#containerここから-----*/
+	#container{
+		min-width: 950px;
+	}
+	
+		/*-----#sideここから-----*/
+		#side{
+			width: 170px;
+			float: left;
+			margin-right: 10px;
+		}
+		
+		#side div img{
+			margin-bottom: 5px;
+		}
+		
+		#newsbox{
+			width: 160px;
+			background-color: #FFF;
+			padding: 5px;
+			cursor: pointer;
+			margin-bottom: 5px
+		}
+		
+		#newsbox div img{
+			margin-bottom: 5px;
+		}
+		
+		#newsbox a:link, #newsbox a:visited{
+			color: #000;
+			text-decoration: none;
+		}
+		
+		#newsbox a:hover{
+			text-decoration: underline;
+		}
+		/*-----#sideここまで-----*/
+		/*-----#rankingここから-----*/
+		#ranking{
+			width: 140px;
+			float: left;
+			margin-right: 10px;
+		}
+			/*-----#rankingboxここから-----*/
+				.rankingbox{
+					width: 130px;
+					height: 63px;
+					background-color: #FFF;
+					padding: 5px;
+					margin-bottom: 5px;
+					cursor: pointer;
+				}
+				.clearfix{
+					display: block;
+				}
+				.left{
+					float: left;
+				}
+				.left img{
+					width: 45px;
+					height: 63px;
+				}
+				.number{
+					float: right;
+					width: 80px;
+				}
+			/*-----#rankingboxここまで-----*/
+		/*-----#rankingここまで-----*/
+		/*-----#stageここから-----*/
+		#stage{
+			hieght: 100%;
+			position: relative;
+			margin-left: 330px;
+			margin-top: 10px;
+		}
+		#stage li{
+			float: left;
+			position: absolute;
+			display: block;
+		}
+		.size_l img{
+			width: 400px;
+			height: 560px;
+		}
+		.size_m img{
+			width: 200px;
+			height: 280px;
+		}
+		.size_s img{
+			width: 100px;
+			height: 140px;
+		}
+		.img2{
+			left: 400px;
+		}
+		.img3{
+			left: 500px;
+		}
+		.img4{
+			left: 400px;
+			top: 140px;
+		}
+		.img5{
+			left: 500px;
+			top: 140px;
+		}
+		.img6{
+			left: 600px;
+		}
+		.img7{
+			left: 400px;
+			top: 280px;
+		}
+		.img8{
+			left: 600px;
+			top: 280px;
+		}
+		.img9{
+			top: 560px;
+		}
+		.img10{
+			left: 100px;
+			top: 560px;
+		}
+		.img11{
+			top: 700px;
+		}
+		.img12{
+			left: 100px;
+			top: 700px;
+		}
+		.img13{
+			left: 200px;
+			top: 560px;
+		}
+		.img14{
+			left: 600px;
+			top: 560px;
+		}
+		.img15{
+			top: 840px;
+		}
+		.img16{
+			top: 840px;
+			left: 600px;
+		}
+		.img17{
+			top: 840px;
+			left: 700px;
+		}
+		.img18{
+			top: 980px;
+			left: 600px;
+		}
+		.img19{
+			top: 980px;
+			left: 700px;
+		}
+		.img20{
+			top: 1120px;
+		}
+		.img21{
+			top: 1120px;
+			left: 200px;
+		}
+		.img22{
+			top: 1120px;
+			left: 300px;
+		}
+		.img23{
+			top: 1260px;
+			left: 200px;
+		}
+		.img24{
+			top: 1260px;
+			left: 300px;
+		}
+		.img25{
+			top: 1120px;
+			left: 400px;
+		}
+		.img26{
+			top: 1120px;
+			left: 600px;
+		}
+		/*-----#stageここまで-----*/
+	/*-----#containerここまで-----*/
+/*-----#wrapperここまで-----*/
+/*-----footerここから-----*/
+footer{
+	width: 100%;
+	background-color: #c6bebd;
+	padding: 20px 0;
+	color: #333;
+	position: absolute;
+	top: 1550px;
+}
+
+footer p{
+	padding: 0 15px;
+}
+/*-----footerここまで-----*/
